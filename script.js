@@ -4,8 +4,7 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 16,
     center: museumCenter,
-    styles: [
-    ],
+    styles: [],
   });
 
   const markersData = [
@@ -14,6 +13,7 @@ function initMap() {
     { lat: 48.8607, lng: 2.3397 },
     { lat: 48.8619, lng: 2.333 },
     { lat: 48.8625, lng: 2.3365 },
+    { lat: 48.86110519403928, lng: 2.3358177384292205 },
   ];
 
   markersData.forEach((pos) => {
@@ -23,3 +23,5 @@ function initMap() {
     });
   });
 }
+
+window.initMap = initMap;

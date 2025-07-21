@@ -389,6 +389,40 @@ copyright {
     font-size: 14px;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-links li {
+    text-align: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+
 /* Scroll smooth */
 html {
     scroll-behavior: smooth;
