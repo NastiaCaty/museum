@@ -185,6 +185,19 @@ header {
     color: #333;
 }
 
+.explore-item h3 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.explore-item h3 a:hover,
+.explore-item h3 a:focus {
+    color: #b99853;
+    outline: none;
+}
+
+
 /* Video Section */
 .video {
     background: #fff;

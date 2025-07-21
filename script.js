@@ -5,7 +5,6 @@ function initMap() {
     zoom: 16,
     center: museumCenter,
     styles: [
-      /* можно добавить стили, если нужно */
     ],
   });
 
